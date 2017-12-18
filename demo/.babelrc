@@ -1,0 +1,10 @@
+{
+  "presets": ["babel-preset-react-native"],
+  "plugins": [
+      ["module-resolver", {
+        "alias": {
+          "victory-native": "./lib"
+        }
+      }]
+    ]
+}
